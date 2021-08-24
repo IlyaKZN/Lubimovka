@@ -1,0 +1,10 @@
+.header {
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 62px;
+    /* все что ниже можно смело удалить */
+    width: 100%;
+    border: 2px dotted black;
+    overflow: scroll;
+
+}
