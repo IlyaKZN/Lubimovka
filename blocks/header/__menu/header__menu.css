@@ -1,13 +1,10 @@
-.header__socials {
+.header__menu {
   margin: 0;
-  display: flex;
-  padding: 20px 0 20px 0;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 22px;
   letter-spacing: 0em;
-  text-align: left;
+  padding: 20px 0 20px 0;
   border-right: 1px solid #242424;
-
 }

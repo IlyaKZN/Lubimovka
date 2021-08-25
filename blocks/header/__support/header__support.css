@@ -1,3 +1,16 @@
 .header__support {
-    margin: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  padding-left: 17px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
