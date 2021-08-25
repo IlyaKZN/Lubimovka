@@ -1,4 +1,6 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/formular-light/formular-light.css);
+@import url(../vendor/fonts/neue-machina-regular/neue-machina-regular.css);
 /* добавил отступы для удобства, потом их следует убрать(ревьеры ругаются) */
 
 /* тут прописаны margin: 0 auto и основной цвет для всей страницы */
@@ -17,6 +19,11 @@
 @import url(../blocks/content/content.css);
 /* фотографии */
 @import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__centered/photo__centered.css);
+@import url(../blocks/photo/__title/photo__title.css);
+@import url(../blocks/photo/__items/photo__items.css);
+@import url(../blocks/photo/__item/photo__item.css);
+@import url(../blocks/photo/__picture/photo__picture.css);
 /* рецензии */
 @import url(../blocks/reviews/reviews.css);
 /* отзывы */
