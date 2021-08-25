@@ -14,3 +14,8 @@
   text-align: left;
 
 }
+@media screen and (max-width: 1439px) {
+  .header__support {
+    display: none;
+  }
+}
