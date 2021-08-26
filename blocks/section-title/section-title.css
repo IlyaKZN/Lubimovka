@@ -1,17 +1,17 @@
-.title {
+.section-title {
   max-width: 568px;
-  font-family: 'NeueMachinaRegular';
+  font-family: 'NeueMachinaRegular' , "Arial", "Impact", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
   margin: 0;
   padding-left: 25.4vw;
-  align-self: flex-start;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 767px) {
-  .title {
+  .section-title {
     max-width: 369px;
     font-size: 28px;
     line-height: 32px;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 414px) {
-  .title {
+  .section-title {
     padding-left: 24px;
   }
 }

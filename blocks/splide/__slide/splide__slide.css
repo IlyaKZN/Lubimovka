@@ -1,3 +1,3 @@
-.splide__slide {
-  padding: 55px 89px 136px 88px;
+.splide__slide:nth-child(1n+2) {
+  opacity: 50%;
 }

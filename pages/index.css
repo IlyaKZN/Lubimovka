@@ -17,8 +17,7 @@
 @import url(../blocks/content/content.css);
 /* фотографии */
 @import url(../blocks/photo/photo.css);
-@import url(../blocks/photo/__centered/photo__centered.css);
-@import url(../blocks/title/title.css);
+@import url(../blocks/section-title/_place/section-title_place_photo.css);
 @import url(../blocks/photo/__items/photo__items.css);
 @import url(../blocks/photo/__item/photo__item.css);
 @import url(../blocks/photo/__picture/photo__picture.css);
@@ -28,11 +27,15 @@
 @import url(../blocks/splide/__track/splide__track.css);
 @import url(../blocks/splide/__list/splide__list.css);
 @import url(../blocks/splide/__slide/splide__slide.css);
+@import url(../blocks/reviews/__container/reviews__container.css);
+@import url(../blocks/reviews/__container/_type/reviews__container_type_next-container.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
 @import url(../blocks/reviews/__text/reviews__text.css);
-@import url(../blocks/reviews/__link/reviews__link.css);
+@import url(../blocks/reviews/__text/_type/reviews__text_type_next-text.css);
+@import url(../blocks/reviews/__button/reviews__button.css);
 /* отзывы */
 @import url(../blocks/feedback/feedback.css);
+@import url(../blocks/section-title/section-title.css);
 /* рассказать о спектакле в соц сетях */
 @import url(../blocks/share/share.css);
 /* футер */

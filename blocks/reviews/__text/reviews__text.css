@@ -1,3 +1,8 @@
 .reviews__text {
-  
+  font-family: 'formular-light', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 47px 0 32px;
 }
