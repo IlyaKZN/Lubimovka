@@ -6,8 +6,6 @@
     font-weight: 400;
     line-height: 40px;
     margin: 0;
-    padding-left: 25.4vw;
-    align-self: flex-start;
   }
   
   @media screen and (max-width: 767px) {
@@ -18,8 +16,3 @@
     }
   }
   
-  @media screen and (max-width: 414px) {
-    .section-title {
-      padding-left: 24px;
-    }
-  }
