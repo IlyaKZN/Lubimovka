@@ -1,0 +1,9 @@
+.header__line-top {
+  background-color: rgb(236, 235, 232);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: 11px;
+}

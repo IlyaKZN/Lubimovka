@@ -2,131 +2,155 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- сюда будем подключать все остальные CSS файлы -->
-    <link rel="stylesheet" href="./pages/index.css">
-    <title>Любимовка</title>
-    <meta name="team" content="4 спартанца">
-    <meta name="authors" content="Тимофей Шакиров, Камиль Каландаров, Илья Пичугин, Игорь Шокин">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- сюда будем подключать все остальные CSS файлы -->
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Любимовка</title>
+  <meta name="team" content="4 спартанца">
+  <meta name="authors" content="Тимофей Шакиров, Камиль Каландаров, Илья Пичугин, Игорь Шокин">
 </head>
 
 <body class="page">
-    <!-- шапка -->
-    <header class="header">
-        <img class="logo" alt="Логотип">
-        <nav>
-            <ul class="header__links">
-                <li class="header__link">
-                    Афиша
-                </li>
-                <li class="header__link">
-                    Библиотека
-                </li>
-                <li class="header__link">
-                    Проекты
-                </li>
-                <li class="header__link">
-                    История
-                </li>
-                <li class="header__link">
-                    Блог
-                </li>
-                <li class="header__link">
-                    Новости
-                </li>
-                <li class="header__link">
-                    О фестивале
-                </li>
-                <li class="header__link">
-                    Контакты
-                </li>
-            </ul>
-        </nav>
-        <!-- есть сомнения стоит ли оборачивать социальные сети в nav, так что если у вас есть мнение на этот счёт пишите :) -->
-        <!-- для соц сетей создал отдельные классы и элементы так как высота строки у них отлична от предыдуших ссылок в шапке -->
-        <nav>
-            <ul class="header__socials">
-                <li class="header__social">
-                    fb
-                </li>
-                <li class="header__social">
-                    inst
-                </li>
-                <li class="header__social">
-                    ytube
-                </li>
-                <li class="header__social">
-                    tlgrm
-                </li>
-                <li class="header__social">
-                    vk
-                </li>
-            </ul>
-        </nav>
-        <a class="header__support">
-            <div class="header__support-icon">
-                <!-- иконку крестика предлагаю поместить сюда через background -->
-            </div>
-            <!-- в стилях укажите uppercase, а то ревьюеры ругаются когда в html пишется все заглавными буквами -->
-            поддержать
-        </a>
-    </header>
-    <main>
-        <!-- основной контент страницы -->
-        <section class="content">
+  <header class="header">
+    <div class="header__line-top">
+    </div>
+    <img class="logo" alt="Логотип" src="./images/header-logo.svg">
+    <button class="header__button" type="button">проекты</button>
+    <nav class="header__menu">
+      <ul class="header__links">
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Афиша
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Библиотека
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Проекты
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            История
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Блог
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Новости
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            О&nbsp;фестивале
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="header__socials">
+        <li class="header__social">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            fb
+          </a>
+        </li>
+        <li class="header__social">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            inst
+          </a>
+        </li>
+        <li class="header__social">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            ytube
+          </a>
+        </li>
+        <li class="header__social">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            tlgrm
+          </a>
+        </li>
+        <li class="header__social">
+          <a class="header__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            vk
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <a class="header__support" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+      <div class="header__support-icon">
+      </div>
+      поддержать
+    </a>
+  </header>
+  <main>
+    <!-- основной контент страницы -->
+    <section class="content">
 
-        </section>
-        <!-- фотографии (включая заголовок) -->
-        <section class="photo">
-            <h4 class="photo__title">Заголовок блока с&nbsp;фотографиями</h4>
-            <ul class="photo__items photo__centered">
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-1.jpg" alt="Мужчина и женщина на сцене">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-2.jpg" alt="Женщина, сидящая на сцене">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-3.jpg" alt="Мужчина репетирует пьесу">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-4.jpg" alt="Группа артистов репетируют пьесу">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-5.jpg" alt="Зрители смотрятп пьесу">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-6.jpg" alt="Девушка репетирует пьесу">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-7.jpg" alt="Группа артистов репетируют пьесу">
-                </li>
-                <li class="photo__item">
-                    <img class="photo__picture" src="./images/photo-8.jpg" alt="Девушка репетирует пьесу">
-                </li>
-            </ul>
-        </section>
-        <!-- рецензии -->
-        <section class="reviews">
+    </section>
+    <!-- фотографии (включая заголовок) -->
+    <section class="photo">
+      <h4 class="photo__title">Заголовок блока с&nbsp;фотографиями</h4>
+      <ul class="photo__items photo__centered">
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-1.jpg" alt="Мужчина и женщина на сцене">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-2.jpg" alt="Женщина, сидящая на сцене">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-3.jpg" alt="Мужчина репетирует пьесу">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-4.jpg" alt="Группа артистов репетируют пьесу">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-5.jpg" alt="Зрители смотрятп пьесу">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-6.jpg" alt="Девушка репетирует пьесу">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-7.jpg" alt="Группа артистов репетируют пьесу">
+        </li>
+        <li class="photo__item">
+          <img class="photo__picture" src="./images/photo-8.jpg" alt="Девушка репетирует пьесу">
+        </li>
+      </ul>
+    </section>
+    <!-- рецензии -->
+    <section class="reviews">
 
-        </section>
-        <!-- отзывы -->
-        <section class="feedback">
-            <!-- рассказать о спектакле -->
-        </section>
+    </section>
+    <!-- отзывы -->
+    <section class="feedback">
+      <!-- рассказать о спектакле -->
+    </section>
 
-        <!-- рассказать о спектакле -->
-        <section class="share">
-            <!-- фотографию предлагаю вставить в эту секцию -->
-        </section>
+    <!-- рассказать о спектакле -->
+    <section class="share">
+      <!-- фотографию предлагаю вставить в эту секцию -->
+    </section>
 
 
 
-    </main>
-    <footer class="footer">
-    </footer>
+  </main>
+  <footer class="footer">
+  </footer>
 
 </body>
 
