@@ -1,9 +1,9 @@
-.reviews__items {
-    margin: 0;
+.feedback__items {
+    margin: 60px 0 0 0;
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 361px;
+    grid-template-rows: fit-content;
     gap: 40px;
 }
