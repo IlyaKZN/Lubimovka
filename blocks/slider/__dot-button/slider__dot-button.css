@@ -1,0 +1,16 @@
+.slider__dot-button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  background-image: url(../../../images/slider-dot.svg);
+  width: 6px;
+  height: 6px;
+  margin-left: 16px;
+}
+
+.slider__dot-button:first-of-type {
+  margin-left: 0;
+}
