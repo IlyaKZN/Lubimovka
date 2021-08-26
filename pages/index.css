@@ -1,4 +1,6 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/formular-light/formular-light.css);
+@import url(../vendor/fonts/neue-machina-regular/neue-machina-regular.css);
 /* добавил отступы для удобства, потом их следует убрать(ревьеры ругаются) */
 
 /* тут прописаны margin: 0 auto и основной цвет для всей страницы */
@@ -13,14 +15,31 @@
 @import url(../blocks/header/__social/header__social.css);
 @import url(../blocks/header/__support/header__support.css);
 @import url(../blocks/header/__support-icon/header__support-icon.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__line-top/header__line-top.css);
+@import url(../blocks/header/__button/header__button.css);
 /* основной контент страницы */
 @import url(../blocks/content/content.css);
 /* фотографии */
 @import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__centered/photo__centered.css);
+@import url(../blocks/photo/__items/photo__items.css);
+@import url(../blocks/photo/__item/photo__item.css);
+@import url(../blocks/photo/__picture/photo__picture.css);
+@import url(../blocks/section-title/_place/section-title_place_photo.css);
 /* рецензии */
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/slider-container/slider-container.css);
 /* отзывы */
 @import url(../blocks/feedback/feedback.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_type/section-title_type_1.css);
+@import url(../blocks/section-title/_type/section-title_type_2.css);
+@import url(../blocks/feedback/__items/feedback__items.css);
+@import url(../blocks/feedback/__item/feedback__item.css);
+@import url(../blocks/feedback/__comment/feedback__comment.css);
+@import url(../blocks/feedback/__author/feedback__author.css);
 /* рассказать о спектакле в соц сетях */
 @import url(../blocks/share/share.css);
 /* футер */
@@ -30,3 +49,9 @@
 @import url(../blocks/footer/__lub-logo/footer__lub-logo.css);
 @import url(../blocks/footer/__paragraph/footer__paragraph);
 @import url(../blocks/footer/__partners/footer__partners.css);
+/* слайдер */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_direction/slider__button_direction_right.css);
+@import url(../blocks/slider/__button/_direction/slider__button_direction_left.css);
+@import url(../blocks/slider/__dot-button/slider__dot-button.css);
