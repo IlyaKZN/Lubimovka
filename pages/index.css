@@ -20,12 +20,19 @@
 /* фотографии */
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/photo/__centered/photo__centered.css);
-@import url(../blocks/photo/__title/photo__title.css);
+@import url(../blocks/title/title.css);
 @import url(../blocks/photo/__items/photo__items.css);
 @import url(../blocks/photo/__item/photo__item.css);
 @import url(../blocks/photo/__picture/photo__picture.css);
 /* рецензии */
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/splide/splide.css);
+@import url(../blocks/splide/__track/splide__track.css);
+@import url(../blocks/splide/__list/splide__list.css);
+@import url(../blocks/splide/__slide/splide__slide.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__link/reviews__link.css);
 /* отзывы */
 @import url(../blocks/feedback/feedback.css);
 /* рассказать о спектакле в соц сетях */
