@@ -1,7 +1,8 @@
-.reviews__item {
+.feedback__item {
     background-color: white;
     padding: 33px 30px 24px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 361px;
 }
