@@ -2,10 +2,8 @@
 @import url(../vendor/fonts/formular-light/formular-light.css);
 @import url(../vendor/fonts/neue-machina-regular/neue-machina-regular.css);
 /* добавил отступы для удобства, потом их следует убрать(ревьеры ругаются) */
-
 /* тут прописаны margin: 0 auto и основной цвет для всей страницы */
 @import url(../blocks/page/page.css);
-
 /* шапка и все что с ней связанно */
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
