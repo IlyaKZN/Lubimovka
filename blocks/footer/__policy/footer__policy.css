@@ -1,6 +1,9 @@
 .footer__policy {
+    font-weight: 300;
     text-decoration: none;
     color: rgba(35, 35, 35, 1);
     align-self: center;
     margin-right: 430px;
+    line-height: 17px;
+    font-size: 14px;
 }

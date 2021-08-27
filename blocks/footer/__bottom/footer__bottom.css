@@ -1,6 +1,5 @@
 .footer__bottom {
     display: flex;
+    margin: 0 92px 56px 207px;
     
-    margin-left: 207px;
-    margin-right: 92px;
 }
