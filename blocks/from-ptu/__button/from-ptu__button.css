@@ -1,0 +1,29 @@
+.from-ptu__button {
+  grid-area: button;
+  box-sizing: border-box;
+  margin: 0 0 0 120px;
+  padding: 16px;
+  background-image: url(../../../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 200px;
+  border: none;
+  font: inherit;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  width: 240px;
+  height: 56px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 1439px) {
+  .from-ptu__button {
+    margin: 0 0 0 85px;
+  }
+}

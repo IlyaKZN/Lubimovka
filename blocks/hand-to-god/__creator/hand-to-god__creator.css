@@ -9,12 +9,12 @@
   letter-spacing: -0.01em;
   text-align: left;
 }
-
 @media screen and (max-width: 1439px) {
   .hand-to-god__creator {
     margin: 0;
     padding: 0;
-  }
-}
 
+  }
+
+}
 
