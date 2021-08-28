@@ -10,3 +10,7 @@
   height: 6px;
   margin-left: 16px;
 }
+
+.slider__dot-button:first-of-type {
+  margin-left: 0;
+}
