@@ -19,32 +19,6 @@
 @import url(../blocks/header/__button/header__button.css);
 /* основной контент страницы */
 @import url(../blocks/content/content.css);
-@import url(../blocks/from-ptu/__title/from-ptu__title.css);
-@import url(../blocks/from-ptu/from-ptu.css);
-@import url(../blocks/from-ptu/__description/from-ptu__description.css);
-@import url(../blocks/from-ptu/__time/from-ptu__time.css);
-@import url(../blocks/from-ptu/__button/from-ptu__button.css);
-@import url(../blocks/from-ptu/__photo/from-ptu__photo.css);
-@import url(../blocks/from-ptu/__achievements/from-ptu__achievements.css);
-@import url(../blocks/hand-to-god/hand-to-god.css);
-@import url(../blocks/hand-to-god/__duration/hand-to-god__duration.css);
-@import url(../blocks/hand-to-god/__info/hand-to-god__info.css);
-@import url(../blocks/hand-to-god/__authors/hand-to-god__authors.css);
-@import url(../blocks/hand-to-god/__author/hand-to-god__author.css);
-@import url(../blocks/hand-to-god/__name/hand-to-god__name.css);
-@import url(../blocks/hand-to-god/__video/hand-to-god__video.css);
-@import url(../blocks/hand-to-god/__text/hand-to-god__text.css);
-@import url(../blocks/hand-to-god/__buttons/hand-to-god__buttons.css);
-@import url(../blocks/hand-to-god/__button/hand-to-god__button.css);
-@import url(../blocks/hand-to-god/__creators/hand-to-god__creators.css);
-@import url(../blocks/hand-to-god/__creator/hand-to-god__creator.css);
-@import url(../blocks/hand-to-god/__sity/hand-to-god__sity.css);
-@import url(../blocks/hand-to-god/__age/hand-to-god__age.css);
-@import url(../blocks/hand-to-god/__paragraph/hand-to-god__paragraph.css);
-@import url(../blocks/hand-to-god/__read/hand-to-god__read.css);
-
-
-
 /* фотографии */
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/section-title/_place/section-title_place_photo.css);
