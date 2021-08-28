@@ -97,7 +97,7 @@
       поддержать
     </a>
   </header>
-  <main>
+  <main class="main">
     <!-- основной контент страницы -->
     <section class="content">
       <div class="from-ptu">
@@ -256,9 +256,17 @@
       </ul>
     </section>
     <!-- рецензии -->
-    <section class="reviews">
-      <h2 class="section-title">Рецензии</h2>
-      <div class="splide">
+    <section class="reviews main__reviews">
+      <div class="slider-container">
+        <h2 class="section-title1">Рецензии</h2>
+      </div>
+      <div class="splide reviews__splide" id="splide">
+        <div class="splide__slider">
+          <div class="splide__arrows">
+            <button class="slider__button_direction_left splide__arrow slider__button"></button>
+            <button class="slider__button_direction_right slider__button splide__arrow"></button>
+          </div>
+        </div>
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
@@ -282,7 +290,7 @@
               </div>
             </li>
             <li class="splide__slide">
-              <div class="reviews__container reviews__container_type_next-container">
+              <div class="reviews__container">
                 <img class="reviews__title" src="./images/review-title-2.svg" alt="Заголовок статьи">
                 <p class="reviews__text reviews__text_type_next-text">
                   «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе,
@@ -302,7 +310,7 @@
               </div>
             </li>
             <li class="splide__slide">
-              <div class="reviews__container reviews__container_type_next-container">
+              <div class="reviews__container">
                 <img class="reviews__title" src="./images/review-title-2.svg" alt="Заголовок статьи">
                 <p class="reviews__text reviews__text_type_next-text">
                   «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе,
@@ -324,11 +332,6 @@
           </ul>
         </div>
       </div>
-    </section>
-    <!-- отзывы -->
-    <section class="feedback">
-      <!-- рассказать о спектакле -->
-    </section>
     </section>
     <!-- отзывы -->
     <section class="feedback">
@@ -362,110 +365,112 @@
           <p class="feedback__author">Дарья Морозова</p>
         </li>
       </ul>
-    </section>
+    </section> 
     <!-- рассказать о спектакле -->
     <section class="share">
       <!-- фотографию предлагаю вставить в эту секцию -->
     </section>
   </main>
-  <footer class="footer">
-    <ul class="footer__logos">
-      <li class="footer__lub-logo">
-        <img src="./blocks/footer/любимовкалого.svg" alt="">
-      </li>
-      <li class="footer__paragraph">
-        <p class="footer__partners">Генеральные партнеры</p>
-      </li>
-      <li class="footer__logo">
-        <img src="./blocks/footer/фондлого.png" alt="Фонд Михаила Прохорова">
-      </li>
-      <li class="footer__logo">
-        <img src="blocks/footer/брюхаус.png" alt="Mosbrew">
-      </li>
-      <li class="footer__logo">
-        <img src="./blocks/footer/сбтг.png" alt="SBTG.ru">
-      </li>
-      <li class="footer__logo">
-        <img src="./blocks/footer/апоговорить.png" alt="А поговорить?">
-      </li>
-    </ul>
-    <div class="footer__content">
-      <div class="footer__address">
-        <p class="footer__title">Площадка «8/3»</p>
-        <p class="footer__text">Москва, ул. Казакова, 8, стр. 3 Метро «Курская»</p>
-      </div>
-      <ul class="footer__items">
-        <li class="footer__item">
-          <a href="#" class="footer__link">Любимовка</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Афиша</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Библиотека</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Блог</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Новости</a>
-        </li>
-      </ul>
-      <ul class="footer__items">
-        <li class="footer__item">
-          <a href="#" class="footer__link">О фестивале</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Органзаторы</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">История</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Контакты</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Для прессы</a>
-        </li>
-      </ul>
-      <ul class="footer__items">
-        <li class="footer__item">
-          <a href="#" class="footer__link">Все проекты</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Любимовка.Ещё</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Спектакли</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Сборник Любимовка.Пьесы</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Lark+Любимовка</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Практика постдраматурга</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">Эхо Любимовки</a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer__bottom">
-      <div class="footer__conf">
-        <p class="footer__conf-lyubimovka">&copy; Любимовка</p>
-        <a class="footer__policy" href="#">Политика конфиденциальности</a>
-      </div>
-      <div class="footer__copyright">
-        <figure class="footer__design">
-          <img class="footer__design-logo" alt="Shishki Logo" src="./blocks/footer/shishki.svg">
-          <figcaption class="footer__design-title">дизайн сайта — shishki.collective</figcaption>
-        </figure>
-        <p class="footer__students">вёрстка и разработка — студенты Яндекс.Практикума</p>
-      </div>
-    </div>
-  </footer>
+    <footer class="footer">
+        <ul class="footer__logos">
+            <li class="footer__lub-logo">
+                <img src="./blocks/footer/любимовкалого.svg" alt="">
+            </li>
+            <li class="footer__paragraph">
+                <p class="footer__partners">Генеральные партнеры</p>
+            </li>
+            <li class="footer__logo">
+                <img src="./blocks/footer/фондлого.png" alt="Фонд Михаила Прохорова">
+            </li>
+            <li class="footer__logo">
+                <img src="blocks/footer/брюхаус.png" alt="Mosbrew">
+            </li>
+            <li class="footer__logo">
+                <img src="./blocks/footer/сбтг.png" alt="SBTG.ru">
+            </li>
+            <li class="footer__logo">
+                <img src="./blocks/footer/апоговорить.png" alt="А поговорить?">
+            </li>
+        </ul>
+        <div class="footer__content">
+            <div class="footer__address">
+            <p class="footer__title">Площадка «8/3»</p>
+            <p class="footer__text">Москва, ул. Казакова, 8, стр. 3 Метро «Курская»</p>
+            </div>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Любимовка</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Афиша</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Библиотека</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Блог</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Новости</a>
+                </li>
+            </ul>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">О фестивале</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Организаторы</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">История</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Контакты</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Для прессы</a>
+                </li>
+            </ul>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Все проекты</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Любимовка.Ещё</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Спектакли</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Сборник Любимовка.Пьесы</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Lark+Любимовка</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Практика постдраматурга</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Эхо Любимовки</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__conf">
+                <p class="footer__conf-lyubimovka">&copy; Любимовка</p>
+                <a class="footer__policy" href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__copyright">
+                <figure class="footer__design">
+                    <img class="footer__design-logo" alt="Shishki Logo" src="./blocks/footer/shishki.svg">
+                    <figcaption class="footer__design-title">дизайн сайта — shishki.collective</figcaption>
+                </figure>
+                <p class="footer__students">вёрстка и разработка — студенты Яндекс.Практикума</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
+<script src="./vendor/splide/dist/js/splide.min.js"></script>
+<script src="./index.js"></script>
 </html>
