@@ -1,0 +1,13 @@
+.from-ptu__photo {
+  grid-area: photo;
+  margin: 0;
+  padding: 0;
+  width: 720px;
+  height: 614px;
+}
+@media screen and (max-width: 1439px) {
+  .from-ptu__photo {
+    width: 414px;
+    height: 450px;
+  }
+}
