@@ -4,13 +4,12 @@ document.addEventListener( 'DOMContentLoaded', function () {
         focus    : 'center',
         perPage  : 2,
         trimSpace: false,
-        arrows: false,
+        arrows: true,
         classes: {
-            // Add classes for arrows.
-            arrows: 'splide__arrows',
-            arrow : 'splide__arrow',
-            prev  : 'slider__button_direction_left splide__arrow slider__button',
-            next  : 'slider__button_direction_right slider__button splide__arrow',
+            arrows: 'splide__arrows your-class-arrows',
+            arrow : 'splide__arrow your-class-arrow',
+            prev  : 'splide__arrow--prev your-class-prev',
+            next  : 'splide__arrow--next your-class-next',
         },
     } ).mount();
 } );
