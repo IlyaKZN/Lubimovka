@@ -29,6 +29,7 @@
 /* рецензии */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/splide/splide.css);
+@import url(../blocks/reviews/__splide/reviews__splide.css);
 @import url(../blocks/splide/__track/splide__track.css);
 @import url(../blocks/splide/__list/splide__list.css);
 @import url(../blocks/splide/__slide/splide__slide.css);
@@ -39,6 +40,7 @@
 @import url(../blocks/reviews/__text/_type/reviews__text_type_next-text.css);
 @import url(../blocks/reviews/__button/reviews__button.css);
 @import url(../blocks/slider-container/slider-container.css);
+@import url(../blocks/main/__reviews/main__reviews.css);
 /* отзывы */
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/section-title/section-title.css);
