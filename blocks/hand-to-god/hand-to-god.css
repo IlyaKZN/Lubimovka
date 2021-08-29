@@ -1,0 +1,28 @@
+.hand-to-god {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 719px auto;
+  grid-template-rows: 52px auto;
+  grid-template-areas:
+    'info video'
+    'authors video'
+    'authors text'
+    '. buttons'
+    '. creators';
+}
+
+@media screen and (max-width: 1439px) {
+  .hand-to-god{
+    grid-template-columns: auto;
+    grid-template-rows: 90px auto;
+    grid-template-areas:
+    'info'
+    'authors'
+    'video'
+    'text'
+    'read'
+    'buttons'
+    'creators';
+  }
+
+}

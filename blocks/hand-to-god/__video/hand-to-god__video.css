@@ -1,0 +1,15 @@
+.hand-to-god__video {
+  grid-area: video;
+  margin: 0 0 66px;
+  padding: 0;
+  width: 691px;
+  height: 389px;
+  border: 0;
+}
+@media screen and (max-width: 1439px) {
+  .hand-to-god__video {
+    width: 366px;
+    margin: 24px 32px;
+  }
+
+}
