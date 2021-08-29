@@ -1,0 +1,9 @@
+.reviews__items {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 361px;
+    gap: 40px;
+}
