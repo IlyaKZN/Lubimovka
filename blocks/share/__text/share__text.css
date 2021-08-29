@@ -1,0 +1,10 @@
+.share__text {
+    font-family: 'NeueMachinaRegular';
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 40px;
+    max-width: 666px;
+    margin: 0 auto 139px;
+    display: flex;
+    justify-self: center;
+}
