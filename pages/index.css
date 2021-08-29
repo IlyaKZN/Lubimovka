@@ -76,6 +76,15 @@
 @import url(../blocks/feedback/__author/feedback__author.css);
 /* рассказать о спектакле в соц сетях */
 @import url(../blocks/share/share.css);
+@import url(../blocks/share/__item/sahre__item.css);
+@import url(../blocks/share/__items/share__items.css);
+@import url(../blocks/share/__link/share__link.css);
+@import url(../blocks/share/__link/__link_fb/share__link_fb.css);
+@import url(../blocks/share/__link/__link_twtr/share__link_twtr.css);
+@import url(../blocks/share/__link/__link_vk/share__link_vk.css);
+@import url(../blocks/share/__links/share__links.css);
+@import url(../blocks/share/__picture/share__picture.css);
+@import url(../blocks/share/__text/share__text.css);
 /* футер */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -105,4 +114,3 @@
 @import url(../blocks/slider/__button/_direction/slider__button_direction_right.css);
 @import url(../blocks/slider/__button/_direction/slider__button_direction_left.css);
 @import url(../blocks/slider/__dot-button/slider__dot-button.css);
-
