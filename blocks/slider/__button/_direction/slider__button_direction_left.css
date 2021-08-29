@@ -1,0 +1,4 @@
+.slider__button_direction_left {
+    transform: scale(-1, 1);
+    margin-left: 30px;
+}
