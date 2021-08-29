@@ -1,8 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/formular-light/formular-light.css);
 @import url(../vendor/fonts/neue-machina-regular/neue-machina-regular.css);
-/* добавил отступы для удобства, потом их следует убрать(ревьеры ругаются) */
-/* тут прописаны margin: 0 auto и основной цвет для всей страницы */
 @import url(../blocks/page/page.css);
 /* шапка и все что с ней связанно */
 @import url(../blocks/header/header.css);
@@ -42,9 +40,6 @@
 @import url(../blocks/hand-to-god/__age/hand-to-god__age.css);
 @import url(../blocks/hand-to-god/__paragraph/hand-to-god__paragraph.css);
 @import url(../blocks/hand-to-god/__read/hand-to-god__read.css);
-
-
-
 /* фотографии */
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/section-title/_place/section-title_place_photo.css);
@@ -65,7 +60,6 @@
 @import url(../blocks/reviews/__text/reviews__text.css);
 @import url(../blocks/reviews/__text/_type/reviews__text_type_next-text.css);
 @import url(../blocks/reviews/__button/reviews__button.css);
-@import url(../blocks/slider-container/slider-container.css);
 @import url(../blocks/main/__reviews/main__reviews.css);
 /* отзывы */
 @import url(../blocks/feedback/feedback.css);
@@ -109,8 +103,12 @@
 @import url(../blocks/footer/__policy/footer__policy.css);
 @import url(../blocks/footer/__students/footer__students.css);
 /* слайдер */
-@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__pagination/slider__pagination.css);
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__button/_direction/slider__button_direction_right.css);
 @import url(../blocks/slider/__button/_direction/slider__button_direction_left.css);
 @import url(../blocks/slider/__dot-button/slider__dot-button.css);
+@import url(../blocks/splide/__slider/splide__slider.css);
+@import url(../blocks/splide/__slide/splide__slide.css);
+@import url(../blocks/splide/__arrows/splide__arrows.css);
+@import url(../blocks/section-title-container/section-title-container.css);

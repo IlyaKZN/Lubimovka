@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- сюда будем подключать все остальные CSS файлы -->
   <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
   <meta name="team" content="4 спартанца">
@@ -227,7 +226,9 @@
     </section>
     <!-- фотографии (включая заголовок) -->
     <section class="photo">
-      <h2 class="section-title section-title_place_photo">Заголовок блока с&nbsp;фотографиями</h2>
+      <div class="section-title-container">
+        <h2 class="section-title section-title_place_photo">Заголовок блока с&nbsp;фотографиями</h2>
+      </div>
       <ul class="photo__items">
         <li class="photo__item">
           <img class="photo__picture" src="./images/photo-1.jpg" alt="Мужчина и женщина на сцене">
@@ -257,14 +258,12 @@
     </section>
     <!-- рецензии -->
     <section class="reviews main__reviews">
-      <div class="slider-container">
-        <h2 class="section-title1">Рецензии</h2>
-      </div>
       <div class="splide reviews__splide" id="splide">
         <div class="splide__slider">
+          <h2 class="section-title">Рецензии</h2>
           <div class="splide__arrows">
-            <button class="slider__button_direction_left splide__arrow slider__button"></button>
-            <button class="slider__button_direction_right slider__button splide__arrow"></button>
+            <button class="slider__button_direction_left splide__arrow slider__button" type="button"></button>
+            <button class="slider__button_direction_right slider__button splide__arrow" type="button"></button>
           </div>
         </div>
         <div class="splide__track">
@@ -286,7 +285,7 @@
                   Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы —
                   сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
                 </p>
-                <button class="reviews__button" href="#" target="blank">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
               </div>
             </li>
             <li class="splide__slide">
@@ -306,7 +305,7 @@
                   Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы —
                   сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
                 </p>
-                <button class="reviews__button" href="#" target="blank">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
               </div>
             </li>
             <li class="splide__slide">
@@ -326,7 +325,7 @@
                   Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы —
                   сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
                 </p>
-                <button class="reviews__button" href="#" target="blank">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
               </div>
             </li>
           </ul>
@@ -336,14 +335,14 @@
     <!-- отзывы -->
     <section class="feedback">
       <div class="slider-container">
-        <h2 class="section-title1">Отзывы зрителей</h2>
+        <h2 class="section-title">Отзывы зрителей</h2>
         <div class="slider">
-          <button class="slider__dot-button"></button>
-          <button class="slider__dot-button"></button>
-          <button class="slider__dot-button"></button>
-          <button class="slider__dot-button"></button>
-          <button class="slider__button slider__button_direction_left"></button>
-          <button class="slider__button slider__button_direction_right"></button>
+          <button class="slider__dot-button" type="button"></button>
+          <button class="slider__dot-button" type="button"></button>
+          <button class="slider__dot-button" type="button"></button>
+          <button class="slider__dot-button" type="button"></button>
+          <button class="slider__button slider__button_direction_left" type="button"></button>
+          <button class="slider__button slider__button_direction_right" type="button"></button>
         </div>
       </div>
       <ul class="feedback__items">

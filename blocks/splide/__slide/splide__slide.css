@@ -1,0 +1,8 @@
+.splide__slide {
+    opacity: 50%;
+}
+
+
+.splide__slide.is-active {
+    opacity: 100%;
+}

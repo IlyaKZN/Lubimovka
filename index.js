@@ -4,12 +4,13 @@ document.addEventListener( 'DOMContentLoaded', function () {
         perPage  : 2,
         trimSpace: false,
         arrows: true,
+        pagination: 'slider',
         classes: {
             arrows: 'splide__arrows your-class-arrows',
             arrow : 'splide__arrow your-class-arrow',
             prev  : 'slider__button_direction_left',
             next  : 'slider__button_direction_right',
-            pagination : 'slider',
+            pagination : 'slider__pagination',
             page      : 'slider__dot-button',
         },
     } ).mount();

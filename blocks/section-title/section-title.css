@@ -6,19 +6,9 @@
   font-weight: 400;
   line-height: 40px;
   margin: 0;
-  padding-left: 25.4vw;
-  padding-bottom: 40px;
+  order: 0;
 }
 
-.section-title1 {
-  max-width: 568px;
-  font-family: 'NeueMachinaRegular' , "Arial", "Impact", sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 40px;
-  margin: 0;
-}
 
 @media screen and (max-width: 767px) {
   .section-title {
