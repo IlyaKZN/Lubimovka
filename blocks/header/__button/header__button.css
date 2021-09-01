@@ -2,17 +2,17 @@
   position: absolute;
   top: 94px;
   left: 30px;
-  background-image: url(../../../images/Union.svg);
+  background-image: url(../../../images/Union-left.svg);
   background-repeat: no-repeat;
   background-position: right;
-  padding: 0 25px 9px 0;
+  padding: 9px 25px 10px 0;
   border: none;
   font: inherit;
   color: #000;
   background-color: transparent;
   cursor: pointer;
-  width: 115px;
-  height: 25px;
+  width: 120px;
+  height: 31px;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -22,6 +22,33 @@
   text-transform: uppercase;
   border-right: 1px solid #242424;
   border-bottom: 1px solid #242424;
+  z-index: 1;
+}
+
+.header__button::before {
+  content:'';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 31px;
+  background: url(../../../images/Union-left-active.svg) no-repeat right, linear-gradient(#242424, #242424);
+	transition: all 1s ease;
+  z-index: -1;
+}
+
+.header__button:hover:before {
+  width: 100%;
+}
+
+.header__button:hover {
+  color: #fff;
+  transition: 0.7s linear;
+}
+
+.header__button:active {
+  width: 125px;
+  height: 36px;
 }
 
 @media screen and (max-width: 1439px) {
