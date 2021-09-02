@@ -259,7 +259,7 @@
     <!-- рецензии -->
     <section class="reviews main__reviews">
       <div class="splide reviews__splide" id="splide">
-        <div class="splide__slider">
+        <div class="splide__slider splide__slider_place_reviews">
           <h2 class="section-title">Рецензии</h2>
           <div class="splide__arrows">
             <button class="slider__button_direction_left splide__arrow slider__button" type="button"></button>
@@ -267,8 +267,8 @@
           </div>
         </div>
         <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
+          <ul class="splide__list splide__list_place_reviews">
+            <li class="splide__slide splide__slide_place_reviews">
               <div class="reviews__container">
                 <img class="reviews__title" src="./images/review-title-1.svg" alt="Заголовок статьи">
                 <p class="reviews__text">
@@ -288,10 +288,10 @@
                 <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
               </div>
             </li>
-            <li class="splide__slide">
+            <li class="splide__slide splide__slide_place_reviews">
               <div class="reviews__container">
                 <img class="reviews__title" src="./images/review-title-2.svg" alt="Заголовок статьи">
-                <p class="reviews__text reviews__text_type_next-text">
+                <p class="reviews__text">
                   «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе,
                   где мать главного героя с группой добровольцев готовит кукольное представление.
                   Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и
@@ -308,10 +308,10 @@
                 <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
               </div>
             </li>
-            <li class="splide__slide">
+            <li class="splide__slide splide__slide_place_reviews">
               <div class="reviews__container">
                 <img class="reviews__title" src="./images/review-title-2.svg" alt="Заголовок статьи">
-                <p class="reviews__text reviews__text_type_next-text">
+                <p class="reviews__text">
                   «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе,
                   где мать главного героя с группой добровольцев готовит кукольное представление.
                   Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и
@@ -333,37 +333,54 @@
       </div>
     </section>
     <!-- отзывы -->
-    <section class="feedback">
-      <div class="slider-container">
-        <h2 class="section-title">Отзывы зрителей</h2>
-        <div class="slider">
-          <button class="slider__dot-button" type="button"></button>
-          <button class="slider__dot-button" type="button"></button>
-          <button class="slider__dot-button" type="button"></button>
-          <button class="slider__dot-button" type="button"></button>
-          <button class="slider__button slider__button_direction_left" type="button"></button>
-          <button class="slider__button slider__button_direction_right" type="button"></button>
+    <section class="feedback main__feedback">
+      <div class="splide reviews__splide" id="splide2">
+        <div class="splide__slider">
+          <h2 class="section-title">Отзывы зрителей</h2>
+          <div class="splide__arrows">
+            <button class="slider__button_direction_left splide__arrow slider__button" type="button"></button>
+            <button class="slider__button_direction_right slider__button splide__arrow" type="button"></button>
+          </div>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list splide__list_place_feedback">
+            <li class="splide__slide splide__slide_place_feedback">
+              <p class="feedback__comment">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
+                возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо
+                все это с куклой-носочком. Так все чисто сделано!</p>
+              <p class="feedback__author">Наталья Зайцева</p>
+            </li>
+            <li class="splide__slide splide__slide_place_feedback">
+              <p class="feedback__comment">Для самой этой истории формат читки работает отличным ироническим отстранением
+              </p>
+              <p class="feedback__author">Дина Годер</p>
+            </li>
+            <li class="splide__slide splide__slide_place_feedback">
+              <p class="feedback__comment">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на
+                нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как
+                будто сама поучаствовала в спектакле</p>
+              <p class="feedback__author">Дарья Морозова</p>
+            </li>
+            <li class="splide__slide splide__slide_place_feedback">
+              <p class="feedback__comment">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
+                возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо
+                все это с куклой-носочком. Так все чисто сделано!</p>
+              <p class="feedback__author">Наталья Зайцева</p>
+            </li>
+            <li class="splide__slide splide__slide_place_feedback">
+              <p class="feedback__comment">Для самой этой истории формат читки работает отличным ироническим отстранением
+              </p>
+              <p class="feedback__author">Дина Годер</p>
+            </li>
+            <li class="splide__slide splide__slide_place_feedback">
+              <p class="feedback__comment">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на
+                нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как
+                будто сама поучаствовала в спектакле</p>
+              <p class="feedback__author">Дарья Морозова</p>
+            </li>
+          </ul>
         </div>
       </div>
-      <ul class="feedback__items">
-        <li class="feedback__item">
-          <p class="feedback__comment">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка
-            возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо
-            все это с куклой-носочком. Так все чисто сделано!</p>
-          <p class="feedback__author">Наталья Зайцева</p>
-        </li>
-        <li class="feedback__item">
-          <p class="feedback__comment">Для самой этой истории формат читки работает отличным ироническим отстранением
-          </p>
-          <p class="feedback__author">Дина Годер</p>
-        </li>
-        <li class="feedback__item">
-          <p class="feedback__comment">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на
-            нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как
-            будто сама поучаствовала в спектакле</p>
-          <p class="feedback__author">Дарья Морозова</p>
-        </li>
-      </ul>
     </section> 
     <!-- рассказать о спектакле -->
     <section class="share">

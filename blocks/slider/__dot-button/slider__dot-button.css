@@ -10,3 +10,9 @@
   height: 6px;
   margin-left: 16px;
 }
+
+.slider__dot-button.is-active {
+  width: 8px;
+  height: 8px;
+  background-image: url(../../../images/slider-dot-active.svg);
+}

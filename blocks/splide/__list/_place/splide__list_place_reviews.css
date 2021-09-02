@@ -1,0 +1,9 @@
+.splide__list_place_reviews {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  transition: 0.2s;
+}
