@@ -9,6 +9,7 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__socials/header__socials.css);
 @import url(../blocks/header/__social/header__social.css);
+@import url(../blocks/header/__link-social/header__link-social.css);
 @import url(../blocks/header/__support/header__support.css);
 @import url(../blocks/header/__support-icon/header__support-icon.css);
 @import url(../blocks/header/__menu/header__menu.css);

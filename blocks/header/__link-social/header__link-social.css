@@ -1,0 +1,5 @@
+.header__link-social:hover {
+  background-color: #242424;
+  color: #fff;
+  transition: 0.3s linear;
+}

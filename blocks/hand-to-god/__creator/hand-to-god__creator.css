@@ -8,7 +8,16 @@
   line-height: 24px;
   letter-spacing: -0.01em;
   text-align: left;
+  cursor: pointer;
+  max-width: 190px;
 }
+
+.hand-to-god__creator:hover {
+  background-color: #242424;
+  color: #fff;
+  transition: 0.3s linear;
+}
+
 @media screen and (max-width: 1439px) {
   .hand-to-god__creator {
     margin: 0;

@@ -8,10 +8,10 @@
   border-bottom: 1px solid #242424;
   font-family: 'FormularLight';
 }
+
 @media screen and (max-width: 1439px) {
   .header {
     border: none;
     margin: 0 0 50px 0;
-
   }
 }

@@ -1,7 +1,7 @@
 .header__social {
-    margin: 0;
-    padding: 0 16px 0 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0 16px 0 0;
+  list-style-type: none;
 }
 .header__social:first-child {
   padding: 0 16px 0 24px;

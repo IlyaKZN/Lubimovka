@@ -8,6 +8,7 @@
   padding: 20px 0 20px 0;
   border-right: 1px solid #242424;
 }
+
 @media screen and (max-width: 1439px) {
   .header__menu {
     display: none;
