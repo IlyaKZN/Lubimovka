@@ -226,7 +226,7 @@
     </section>
     <!-- фотографии (включая заголовок) -->
     <section class="photo">
-      <h2 class="section-title section-title_place_photo">Заголовок блока с&nbsp;фотографиями</h2>
+      <h1 class="section-title section-title_place_photo">Заголовок блока с&nbsp;фотографиями</h1>
       <ul class="photo__items">
         <li class="photo__item">
           <img class="photo__picture" src="./images/photo-1.jpg" alt="Мужчина и женщина на сцене">
@@ -283,7 +283,7 @@
                   Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы —
                   сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
                 </p>
-                <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                <a class="reviews__button" href="#" target="blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
               </div>
             </li>
             <li class="splide__slide splide__slide_place_reviews">
@@ -303,7 +303,7 @@
                   Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы —
                   сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
                 </p>
-                <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                <a class="reviews__button" href="#" target="blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
               </div>
             </li>
             <li class="splide__slide splide__slide_place_reviews">
@@ -323,7 +323,7 @@
                   Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы —
                   сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».
                 </p>
-                <button class="reviews__button" href="#" target="blank" type="button">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                <a class="reviews__button" href="#" target="blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
               </div>
             </li>
           </ul>
@@ -331,10 +331,10 @@
       </div>
     </section>
     <!-- отзывы -->
-    <section class="feedback main__feedback">
+    <div class="feedback main__feedback">
       <div class="splide reviews__splide" id="splide2">
         <div class="splide__slider">
-          <h2 class="section-title">Отзывы зрителей</h2>
+          <h3 class="section-title">Отзывы зрителей</h3>
           <div class="splide__arrows">
             <button class="slider__button_direction_left splide__arrow slider__button" type="button"></button>
             <button class="slider__button_direction_right slider__button splide__arrow" type="button"></button>
@@ -379,9 +379,9 @@
           </ul>
         </div>
       </div>
-    </section> 
+    </div> 
     <!-- рассказать о спектакле -->
-    <section class="share">
+    <div class="share">
       <!-- фотографию предлагаю вставить в эту секцию -->
       <img class="share__picture" src="./blocks/footer/Rectangle203.png" alt="Рассказать о спектакле" >
       <nav class="share__links">
@@ -393,7 +393,7 @@
         <p class="share__text">Рассказать о спектакле в соцсетях</p>
       </nav>
       
-    </section>
+    </div>
   </main>
     <footer class="footer">
         <ul class="footer__logos">
@@ -493,9 +493,10 @@
             </div>
         </div>
     </footer>
+    <script src="./vendor/splide/dist/js/splide.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 
-<script src="./vendor/splide/dist/js/splide.min.js"></script>
-<script src="./index.js"></script>
+
 </html>
