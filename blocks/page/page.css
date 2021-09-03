@@ -3,9 +3,3 @@
     margin: 0 auto;
     background-color: rgb(236, 235, 232);
 }
-
-@media screen and (max-width: 1439px) {
-  .page {
-    max-width: 414px;
-  }
-}

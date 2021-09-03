@@ -19,6 +19,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 document.addEventListener( 'DOMContentLoaded', function () {
 	new Splide( '#splide2', {
     perPage  : 3,
+    gap: 30,
     arrows: true,
     pagination: 'slider',
     classes: {
@@ -29,5 +30,5 @@ document.addEventListener( 'DOMContentLoaded', function () {
         pagination : 'slider__pagination',
         page      : 'slider__dot-button',
     },
-} ).mount();
+  } ).mount();
 } );
