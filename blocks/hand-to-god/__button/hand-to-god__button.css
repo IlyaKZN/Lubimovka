@@ -1,0 +1,77 @@
+.hand-to-god__button {
+  box-sizing: border-box;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  border-bottom: 1px solid #242424;
+  background-color: #B7C09D;
+  margin: 0;
+  padding: 24px 0 0 24px;
+  font-family: 'NeueMachinaRegular';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 16px 0 18px 16px;
+}
+
+.hand-to-god__button:nth-child(1) {
+  height: 187px;
+  padding: 24px 0 139px 24px;
+}
+
+.hand-to-god__button:nth-child(2) {
+  background-image: url(../../../images/Union-top-right.svg);
+  background-repeat: no-repeat;
+  background-position: left 200px center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  height: 55px;
+  font-family: 'FormularLight';
+}
+
+.hand-to-god__button:nth-child(2):hover {
+  background-image: url(../../../images/Union-top-right-active.svg);
+}
+
+.hand-to-god__button:nth-child(3) {
+  background-image: url(../../../images/Union-button.svg);
+  background-repeat: no-repeat;
+  background-position: left 200px center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  height: 55px;
+  font-family: 'FormularLight';
+  border-bottom: none;
+}
+
+.hand-to-god__button:nth-child(3):hover {
+  background-image: url(../../../images/Union-button.-active.svg);
+}
+
+.hand-to-god__button:hover {
+  background-color: #242424;
+  color: #fff;
+  transition: 0.3s linear;
+}
+
+@media screen and (max-width: 1439px) {
+  .hand-to-god__button{
+    width: 244px;
+  }
+  .hand-to-god__button:nth-child(1) {
+    height: 230px;
+  }
+
+  .hand-to-god__button:nth-child(2) {
+    height: 56px;
+  }
+
+
+  .hand-to-god__button:nth-child(3) {
+    height: 56px;
+  }
+}

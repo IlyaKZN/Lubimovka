@@ -1,0 +1,52 @@
+.from-ptu__button {
+  grid-area: button;
+  box-sizing: border-box;
+  margin: 0 0 0 120px;
+  padding: 16px;
+  background-image: url(../../../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 200px;
+  border: none;
+  font: inherit;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  width: 240px;
+  height: 56px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.from-ptu__button::before {
+  content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 56px;
+	background: linear-gradient(#242424, #242424) no-repeat right;
+	transition: all 1s ease;
+  z-index: -1;
+}
+
+.from-ptu__button:hover:before {
+  width: 100%;
+}
+
+.from-ptu__button:hover {
+  color: #fff;
+  background-image: url(../../../images/arrow-right-active.svg);
+  transition: 0.1s linear;
+}
+
+@media screen and (max-width: 1439px) {
+  .from-ptu__button {
+    margin: 0 0 0 85px;
+  }
+}

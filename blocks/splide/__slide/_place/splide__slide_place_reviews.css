@@ -1,0 +1,12 @@
+.splide__slide_place_reviews {
+  opacity: 50%;
+  min-width: 718px;
+  max-height: 525px;
+}
+
+
+.splide__slide_place_reviews.is-active {
+  opacity: 100%;
+  height: 782px;
+  max-height: 782px;
+}
